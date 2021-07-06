@@ -1,17 +1,21 @@
 {
-  "name": "swag-training/cli-command",
+  "name": "swag-training/shopware6-cli-command",
   "description": "Example CLI Command plugin",
   "type": "shopware-platform-plugin",
   "license": "MIT",
+  "require": {
+    "shopware/core": "^6.4"
+  },
   "autoload": {
     "psr-4": {
-      "Swag\\CliCommand\\": "src/"
+      "SwagTraining\\CliCommand\\": "src/"
     }
   },
   "extra": {
     "shopware-plugin-class": "SwagTraining\\CliCommand\\SwagCliCommand",
     "label": {
-      "en-GB": "Example CLI Command plugin"
+      "en-GB": "Example CLI Command plugin",
+      "de-DE": "Beispiel CLI Befehl Plugin"
     }
   }
 }
