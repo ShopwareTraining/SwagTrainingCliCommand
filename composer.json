@@ -12,7 +12,7 @@
     }
   },
   "extra": {
-    "shopware-plugin-class": "SwagTraining\\CliCommand\\SwagCliCommand",
+    "shopware-plugin-class": "SwagTraining\\CliCommand\\SwagTrainingCliCommand",
     "label": {
       "en-GB": "Example CLI Command plugin",
       "de-DE": "Beispiel CLI Befehl Plugin"
