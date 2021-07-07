@@ -1,5 +1,5 @@
 {
-  "name": "swag-training/shopware6-cli-command",
+  "name": "swag-training/cli-command",
   "description": "Example CLI Command plugin",
   "type": "shopware-platform-plugin",
   "license": "MIT",
